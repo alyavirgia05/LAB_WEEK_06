@@ -40,6 +40,10 @@ ImageLoader, private val onClickListener: CatAdapter.OnClickListener) : Recycler
             CatBreed.AmericanCurl -> "American Curl"
             CatBreed.BalineseJavanese -> "Balinese-Javanese"
             CatBreed.ExoticShorthair -> "Exotic Shorthair"
+            CatBreed.BritishShorthair -> "British Shorthair"
+            CatBreed.Sphynx -> "Sphynx"
+            CatBreed.BritishLonghair -> "British Longhair"
+            CatBreed.Bengal -> "Bengal"
             else -> "Unknown"
         }
         catBiographyView.text = cat.biography
